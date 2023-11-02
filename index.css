@@ -1,0 +1,96 @@
+*{
+  background-color: black;
+  font-family:cursive ;
+  color: white;
+}
+
+  .sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 220px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: rgb(255, 255, 255); /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 10px;
+    
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 40px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: orange;
+    display: block;
+    background-color: white;
+
+  }
+  
+  .sidenav a:hover {
+    color:gray;
+  }
+
+  h3 {
+    text-transform: uppercase;
+    translate: 250px 100px;
+  }
+
+  p {
+    text-transform: capitalize;
+    translate: 250px 100px;
+    
+  }
+
+  section img{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    height: 170px;
+    width: 150px;
+    position: absolute;
+  }
+
+  #item1{
+    top: 100px;
+    right: 100px;
+    z-index:1;
+  }
+
+  #item2{
+    top: 150px;
+    right: 150px;
+    z-index:2;
+
+  }
+  
+  #item3{
+    top: 200px;
+    right: 200px;
+    z-index:1;
+
+  }
+  
+  h2{
+    text-transform: uppercase;
+    translate: 250px 320px;
+    text-decoration: underline;
+  }
+
+  #about {
+    text-transform: capitalize;
+    translate: 250px 320px;
+  }
+  #item4{
+    translate: 1000px 200px;
+  }
+
+ 
+
+  
+
+
+  
+ 
+
+  
